@@ -67,7 +67,13 @@ extension DogViewController: UICollectionViewDelegateFlowLayout {
         let interItemSpacing: CGFloat = 10 //this is the space frim left to right
         let maxWidth = UIScreen.main.bounds.size.width // device's width
         let numberOfItems: CGFloat = 3 // items
+        
+        
+        
         let totalSpacing: CGFloat = numberOfItems * interItemSpacing
+        
+        
+        
         let itemWidth: CGFloat = (maxWidth - totalSpacing) / numberOfItems
         
         
